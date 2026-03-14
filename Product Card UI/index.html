@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header class="navbar">
+  <img src="https://i.pinimg.com/736x/60/8b/dd/608bdd0261459d67bd45e3d5474dabfb.jpg" alt="">
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search clothes...">
+    <button >🔍</button>
+  </div>
+
+  <div class="cart">
+    🛒 Cart <span id="cartCount">0</span>
+  </div>
+
+  <a   class="login1" href="#">Login</a>
+  <a  class="login1" href="#">Checkout</a>
+  
+</header>
+
+<nav class="filters">
+  <button class="active" >All</button>
+  <button >Men</button>
+  <button >Women</button>
+  <button >Boys</button>
+  <button >Girls</button>
+  <button >More</button>
+</nav>
+
+<div class="ad-banner">
+  <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?w=1200">
+  <div class="ad-text">
+    <h2>Big Fashion Sale 🔥</h2>
+    <p>Up to 50% OFF on Premium Clothing</p>
+    <button>Shop Now</button>
+  </div>
+</div>
+<div class="vicky">
+    <img class="vivek" src="image/kurta.png" alt="" height="70px">
+    <img class="vivek" src="image/Pasted image.png" alt="" height="70px">
+    <img class="vivek" src="image/korean-traditional-dress.png" alt="Girls" height="70px">
+    <img class="vivek" src="image/men-clothing.png" alt="Girls" height="70px">
+    <img class="vivek" src="image/suit.png" alt="Girls" height="70px">
+    <img class="vivek" src="image/hat.png" alt="Girls" height="70px">
+    <img class="vivek" src="image/dress (3).png" alt="Girls" height="70px">
+    <img class="vivek" src="image/dress (1).png" alt="Girls" height="70px">
+</div>
+</div>
+
+
+  <section class="products" id="productList">
+
+
+   
+  <div class="card men" data-name="Men Shirt" data-price="999">
+    <img src="https://i.pinimg.com/1200x/60/91/fd/6091fd0095f60e49635017ff406a5baa.jpg">
+    <h3> Shirt</h3>
+    <p>Cotton casual</p>
+    <span>₹999</span>
+    <button onclick=>Add to Cart</button>
+  </div>
+
+  <div class="card men" data-name="Formal Shirt" data-price="1099">
+    <img src="https://i.pinimg.com/736x/9d/1d/a3/9d1da3f54b87af631fdb62fec7abcccb.jpg">
+    <h3>Formal Shirt</h3>
+    <p>Office wear</p>
+    <span>₹1099</span>
+    <button >Add to Cart</button>
+  </div>
+
+  <!-- WOMEN -->
+  <div class="card women" data-name="Women Dress" data-price="1799">
+    <img src="https://i.pinimg.com/1200x/14/87/b7/1487b7eb6de36048ff6f5fde9cf706a9.jpg">
+    <h3>Girl Dress</h3>
+    <p>Party wear</p>
+    <span>₹1799</span>
+    <button onclick=>Add to Cart</button>
+  </div>
+
+  <div class="card women" data-name="Kurti" data-price="1299">
+    <img src="https://i.pinimg.com/736x/58/de/42/58de42d7fc55dd745c6d13e2f6ea29b1.jpg">
+    <h3>Kurti</h3>
+    <p>Daily wear</p>
+    <span>₹1299</span>
+    <button onclick=>Add to Cart</button>
+  </div>
+
+  <!-- BOYS -->
+  <div class="card boys" data-name="Boys T-Shirt" data-price="599">
+    <img src="https://i.pinimg.com/1200x/cd/48/de/cd48dee03d61c03f0ac336167e94daf3.jpg">
+    <h3>Boys T-Shirt</h3>
+    <p>Soft cotton</p>
+    <span>₹599</span>
+    <button onclick=>Add to Cart</button>
+  </div>
+
+  <!-- GIRLS -->
+  <div class="card girls" data-name="Girls Frock" data-price="799">
+    <img src="https://i.pinimg.com/1200x/34/5e/6f/345e6fd4bcb63df7aae90e6543dfdf42.jpg">
+    <h3>Girls Frock</h3>
+    <p>Beautiful design</p>
+    <span>₹799</span>
+    <button >Add to Cart</button>
+  </div>
+
+  <!-- MORE -->
+  <div class="card more" data-name="Cap" data-price="299">
+    <img src="https://i.pinimg.com/736x/ef/fe/49/effe49b5f7108307222585b47e731781.jpg">
+    <h3>Cap</h3>
+    <p>Stylish cap</p>
+    <span>₹299</span>
+    <button onclick="addToCart(this)">Add to Cart</button>
+  </div>
+
+  <div class="card more" data-name="Shoes" data-price="2499">
+    <img src="https://i.pinimg.com/1200x/74/f1/a0/74f1a0df81afe8a249865a5ba11f4737.jpg">
+    <h3>gown</h3>
+    <p>Party wear</p>
+    <span>₹2499</span>
+    <button>Add to Cart</button>
+  </div>
+
+
+  <!-- MEN -->
+  <div class="card men" data-name="Men Shirt" data-price="999">
+    <img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=600">
+    <h3>Shirt</h3>
+    <p>Cotton casual</p>
+    <span>₹999</span>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="card men" data-name="Formal Shirt" data-price="1099">
+    <img src="https://i.pinimg.com/736x/3c/2d/ff/3c2dff434155612d7454f914ce1f8dbc.jpg">
+    <h3>Formal Shirt</h3>
+    <p>Office wear</p>
+    <span>₹1099</span>
+    <button>Add to Cart</button>
+  </div>
+
+  <!-- WOMEN -->
+  <div class="card women" data-name="Women Dress" data-price="1799">
+    <img src="https://i.pinimg.com/1200x/c7/3f/f1/c73ff160453ee1965a12cfde8c3822b9.jpg">
+    <h3>Women Dress</h3>
+    <p>Party wear</p>
+    <span>₹1799</span>
+    <button >Add to Cart</button>
+  </div>
+
+  <div class="card women" data-name="Kurti" data-price="1299">
+    <img src="https://i.pinimg.com/1200x/7f/2f/43/7f2f431cc022fe42b3d4706a9d544ca8.jpg">
+    <h3>Kurti</h3>
+    <p>Daily wear</p>
+    <span>₹1299</span>
+    <button >Add to Cart</button>
+  </div>
+
+  <!-- BOYS -->
+  <div class="card boys" data-name="Boys T-Shirt" data-price="599">
+    <img src="https://i.pinimg.com/1200x/bd/62/65/bd6265daa0ce3385bc5931d2c3748a7c.jpg">
+    <h3> T-Shirt</h3>
+    <p>Soft cotton</p>pinimg
+    <span>₹599</span>
+    <button >Add to Cart</button>
+  </div>
+
+  <!-- GIRLS -->
+  <div class="card girls" data-name="Girls Frock" data-price="799">
+    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600">
+    <h3>Girls Frock</h3>
+    <p>Beautiful design</p>
+    <span>₹799</span>
+    <button >Add to Cart</button>
+  </div>
+
+  <!-- MORE -->
+  <div class="card more" data-name="Cap" data-price="299">
+    <img src="https://i.pinimg.com/1200x/89/84/cb/8984cbc23b808170b57c4cf1ab494362.jpg">
+    <h3>Cap</h3>
+    <p>Stylish cap</p>
+    <span>₹299</span>
+    <button >Add to Cart</button>
+  </div>
+
+</section>
+
+<!-- CART -->
+<div class="cart-box">
+  <h2>Your Cart</h2>
+  <ul id="cartItems"></ul>
+  <h3>Total: ₹<span id="total">0</span></h3>
+</div>
+
+<footer>© 2026 Clothing Shop | Aman</footer>
+
+</body>
+</html>
