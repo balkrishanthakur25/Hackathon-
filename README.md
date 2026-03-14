@@ -24,15 +24,18 @@ Is repo me multiple chhote HTML/CSS/JavaScript projects hain. Har project ka cod
 1. Blog Post
 - Path: `Blog Post/blog.html`
 - Feature: Static blog post page with header, article, image, blockquote, author bio, aur comments form.
+- https://enchanting-dragon-c63c3c.netlify.app/
 
 1. Event Page
 - Path: `Event /Event.html`
 - Feature: Event details, schedule, speakers, highlights aur registration link.
+- https://fanciful-cobbler-b4e1ae.netlify.app/
 
 1. Feedback Form
 - Path: `Feedback/index.html`
 - Feature: Name, email, rating aur comment wala feedback form.
 - Files: `index.html`, `style.css`
+- https://rococo-pie-6cee47.netlify.app/
 
 1. Product Card UI
 - Path: `Product Card UI/index.html`
