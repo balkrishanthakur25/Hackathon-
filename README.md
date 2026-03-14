@@ -13,13 +13,13 @@ Is repo me multiple chhote HTML/CSS/JavaScript projects hain. Har project ka cod
 - Path: `Basic Tip Calculator Project /index.html`
 - Feature: Bill amount, tip % aur number of people ke base par per-person tip aur total calculate karta hai.
 - Files: `index.html`, `style.css`, `script.js`
-- jovial-pony-177b8b.netlify.app
+- https://jovial-pony-177b8b.netlify.app/
 
 1. To-Do List
 - Path: `To-Do List/index.html`
 - Feature: Task add, delete, aur click par completed (line-through) mark.
 - Files: `index.html`, `script.js` (UI JS se dynamically create hota hai)
-- dapper-medovik-d02846.netlify.app
+- https://dapper-medovik-d02846.netlify.app/
 
 1. Blog Post
 - Path: `Blog Post/blog.html`
