@@ -47,7 +47,7 @@ Is repo me multiple chhote HTML/CSS/JavaScript projects hain. Har project ka cod
 - Path: `food recepi/index.html`
 - Feature: Food items list with images aur prices.
 - Extra Page: `food recepi/contect.html` (contact form)
-- https://musical-cajeta-98e3d4.netlify.app/
+- https://eclectic-bubblegum-b48414.netlify.app/
 
 **Run/Use Kaise Karein**
 1. Kisi bhi project ke HTML file ko browser me open karein.
